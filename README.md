@@ -1,16 +1,126 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 Personal Portfolio Website
 
-Currently, two official plugins are available:
+A modern, responsive personal portfolio built using **React**, **Vite**, and **Tailwind CSS** to showcase projects, skills, and contact information with a clean UI and smooth user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ Component-based architecture using React
+- 🌙 Dark / Light theme toggle with localStorage persistence
+- 📱 Fully responsive design (desktop & mobile)
+- 🧭 Smooth navigation with responsive Navbar
+- 🎨 Animated star & meteor background effects
+- 🧠 Skills section with category-based filtering
+- 📂 Projects section with live demo & GitHub links
+- 🔔 Custom toast notification system using React hooks & Radix UI
+- 📬 Contact section with UI feedback on form submission
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **UI Primitives:** Radix UI (Toast)
+- **State Management:** React Hooks
+- **Utilities:** class-variance-authority, clsx, tailwind-merge
+- **Deployment Ready:** Vercel
+
+---
+
+## 📁 Project Structure
+
+```
+
+src/
+├── components/
+│   ├── ui/              # Reusable UI components (Toast)
+│   ├── Navbar.jsx
+│   ├── HeroSection.jsx
+│   ├── AboutSection.jsx
+│   ├── SkillsSection.jsx
+│   ├── ProjectSection.jsx
+│   ├── ContactSection.jsx
+│   ├── Footer.jsx
+│   └── StarBackground.jsx
+│
+├── hooks/
+│   └── use-toast.js     # Custom global toast hook
+│
+├── lib/
+│   └── utils.js         # Utility function (cn)
+│
+├── pages/
+│   ├── Home.jsx
+│   └── NotFound.jsx
+│
+├── assets/
+├── index.css
+├── main.jsx
+└── App.jsx
+
+````
+
+---
+
+## 🔔 Toast Notification System
+
+- Implemented a **custom toast system** using Radix UI and React hooks
+- Toasts are managed globally using a `useToast` hook
+- Supports add, update, dismiss, and auto-remove functionality
+- No external state management libraries used
+
+---
+
+## 🧠 Learning Outcomes
+
+- React component-based architecture
+- Global UI state management with hooks
+- Tailwind CSS best practices
+- Theme persistence using localStorage
+- Clean folder structure & reusable components
+- Real-world Git workflow and commits
+
+---
+
+## ▶️ Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/rahulya43/portfolio-1.git
+cd portfolio-1
+````
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+👉 *Add your deployed link here when available*
+
+---
+
+
+
+## ⭐ Acknowledgements
+
+* Radix UI
+* Tailwind CSS
+* Lucide Icons
+
+
+```
