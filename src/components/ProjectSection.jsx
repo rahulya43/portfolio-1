@@ -12,22 +12,21 @@ const projects = [
   },
   {
     id: 2,
-    title: "",
-    description:"",
+    title: "Fuzzy Image Quality Assessment",
+    description:"This project implements a fuzzy logic–based Image Quality Assessment (IQA) system to evaluate and filter low-quality images before they are used in downstream tasks such as medical image classification and deep learning model training.",
     image: "/projects/project2.png",
-    tags: [],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Python", "TensorFlow", "OpenCV","Fuzzy Logic"],
+    githubUrl: "https://github.com/rahulya43/fuzzy-image-quality-assessment",
   },
   {
     id: 3,
-    title: "",
+    title: "Personalized News Digest Composer",
     description:
-      "",
+      "A plaqtfrom where user get the summarized news based on his preferences.",
     image: "/projects/project3.png",
-    tags: [],
+    tags: ["React", "TailwindCSS", "Node","MangoDB","Express"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/rahulya43/api_news_digest",
   },
 ];
 
